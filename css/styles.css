@@ -283,7 +283,7 @@ body {
 @media (max-width: 739px) {
   .space_image_logo {
     margin-bottom: 20px;
-    height: 8vh;
+    height: 80px;
   }
   .space_title {
     display: flex !important;
