@@ -164,8 +164,9 @@ body {
 
 @media (min-width: 1024px) and (max-width: 1239px) {
   .space_image_logo {
-    margin-bottom: 20px;
-    height: 12vh;
+    margin-bottom: 40px;
+    width: 50%;
+    height: auto;
   }
   .space_title {
     display: flex !important;
@@ -224,7 +225,8 @@ body {
 @media (min-width: 740px) and (max-width: 1023px) {
   .space_image_logo {
     margin-bottom: 20px;
-    height: 12vh;
+    width: 50%;
+    height: auto;
   }
   .space_title {
     display: flex !important;
@@ -283,7 +285,8 @@ body {
 @media (max-width: 739px) {
   .space_image_logo {
     margin-bottom: 20px;
-    height: 80px;
+    width: 60%;
+    height: auto;
   }
   .space_title {
     display: flex !important;
