@@ -4,36 +4,31 @@ body {
 }
 /* container_01 */
 .container_01 {
-  overflow-x: hidden;
-  overflow-y: hidden;
+  position: relative;
+  overflow: hidden;
   display: flex !important;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-repeat: unset;
   height: 100vh;
+  width: 100vw;
 }
 .background_container01 {
-  overflow-x: hidden;
-  overflow-y: hidden;
   width: 100%;
   height: 100%;
   z-index: -1;
   position: absolute;
-  animation-name: animationContainer01;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
   background-image: url("../images/background_header.png");
   background-size: cover;
+  animation: fade-in cubic-bezier(0, 0, 0.2, 1) 5s infinite;
 }
-@keyframes animationContainer01 {
+@keyframes fade-in {
   from {
-    transform: rotate(0);
-    scale: 1.3;
+    transform: scale(1.5);
   }
   to {
-    transform: rotate(20 deg);
-    scale: 1.5;
+    transform: scale(1);
   }
 }
 .space_image_logo {
