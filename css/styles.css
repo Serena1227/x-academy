@@ -2,7 +2,9 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
+
 /* container_01 */
+
 .container_01 {
   position: relative;
   overflow: hidden;
@@ -14,6 +16,46 @@ body {
   height: 100vh;
   width: 100vw;
 }
+/*---------- NAV ----------*/
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+  font-size: 20px;
+  background-color: rgb(6, 63, 128);
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.navbar:hover {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nav li a:link,
+.nav li a:visited {
+  text-align: left;
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .nav li a:after {
+    display: block;
+    content: "";
+    border-bottom: solid 2px #f8eee7;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+    transform-origin: 100% 50%;
+  }
+
+  .nav li a:hover:after {
+    transform: scaleX(1);
+    transform-origin: 0 50%;
+  }
+}
+
+/* // Animation */
 .background_container01 {
   width: 100%;
   height: 100%;
@@ -49,7 +91,7 @@ body {
   border: 5px solid #f6c059;
   border-radius: 10px;
   width: 60%;
-  height: 25vh;
+  height: 25h;
 }
 .title {
   width: 100%;
@@ -161,7 +203,7 @@ body {
 }
 
 /* // Table */
-h1 {
+.title_tabe {
   font-size: 40px;
   color: #fff;
   text-transform: uppercase;
@@ -202,6 +244,12 @@ td {
 .url {
   cursor: pointer;
   color: #eaa25f;
+}
+.normal {
+  display: table-cell;
+}
+.mobile {
+  display: none;
 }
 
 /* demo styles */
@@ -257,8 +305,8 @@ section {
 
 @media (min-width: 1024px) and (max-width: 1239px) {
   .space_image_logo {
-    margin-bottom: 40px;
-    width: 50%;
+    margin-bottom: 35px;
+    width: 35%;
     height: auto;
   }
   .space_title {
@@ -268,18 +316,18 @@ section {
     align-items: center;
     border: 3px solid #f6c059;
     border-radius: 10px;
-    width: 90%;
-    height: 20vh;
+    width: 70%;
+    height: 25vh;
   }
   .title {
-    font-size: 120px;
+    font-size: 90px;
     -webkit-text-stroke: 3px transparent;
   }
   .sub_title {
     font-style: normal;
     font-weight: 900;
-    font-size: 50px;
-    line-height: 80px;
+    font-size: 35px;
+    line-height: 40px;
     /* identical to box height */
     color: #ffffff;
   }
@@ -429,5 +477,33 @@ section {
     font-weight: 500;
     font-size: 12px;
     line-height: 20px;
+  }
+  /* Table */
+  .title_tabe {
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  section {
+    margin: 10px;
+  }
+  th {
+    font-size: 14px;
+  }
+  td {
+    font-size: 12px;
+  }
+  .normal {
+    display: none;
+  }
+  .mobile {
+    display: table-cell;
+    text-align: center;
+  }
+  .navbar {
+    display: none;
   }
 }

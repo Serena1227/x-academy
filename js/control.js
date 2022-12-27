@@ -241,7 +241,7 @@ const dataCourse = [
     url: "https://fpt-software.udemy.com/learning-paths/4293118/",
   },
 ];
-//
+// Table
 function tdclick(event, url) {
   window.open(url, "_blank");
   event.stopPropagation();
@@ -252,7 +252,30 @@ document.getElementById("table_render").innerHTML = dataCourse
       `<tr>
       <td>${data.id}</td>
       <td>${data.name}</td>
-      <td onclick="tdclick(event,'${data.url}');" class="url">${data.url}</td>
+      <td onclick="tdclick(event,'${data.url}');" class="url normal">${data.url}</td>
+      <td onclick="tdclick(event,'${data.url}');" class="url mobile">Link course</td>
     </tr>`
   )
   .join("");
+// Header
+$(document).ready(function () {
+  $(".navbar-collapse ul li a").click(function () {
+    /* always close responsive nav after click */
+    $(".navbar-toggle:visible").click();
+  });
+
+  $('a[href*="#"]:not([href="#"])').click((e) => {
+    const target = $(e.target.hash);
+
+    if (target.length) {
+      $("html, body").animate(
+        {
+          scrollTop: target.offset().top - 50,
+        },
+        1000
+      );
+
+      return false;
+    }
+  });
+});

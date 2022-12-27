@@ -14,6 +14,7 @@
       rel="stylesheet"
     />
     <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/bootstrap.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- <link href="./css/global.css" rel="stylesheet" /> -->
     <title>X-ACADEMY - BATCH 02-2023</title>
@@ -21,6 +22,25 @@
   <body>
     <!-- container_01 -->
     <div class="container_01">
+      <nav class="navbar navbar-fixed-top" id="nav-bar">
+        <div class="container-fluid">
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div
+            class="collapse navbar-collapse"
+            id="bs-example-navbar-collapse-1"
+          >
+            <ul class="nav navbar-nav">
+              <li><a href="#MainStages">Main Stages</a></li>
+              <li><a href="#Stage1&2">Stage1&2</a></li>
+              <li><a href="#Stage3">Stage3</a></li>
+              <li><a href="#Stage4">Stage4</a></li>
+              <li><a href="#Course">Course</a></li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+      </nav>
       <div class="background_container01"></div>
       <div class="space_image_logo">
         <img class="image_logo_fsoft" src="./images/logoFsoft.png" />
@@ -48,20 +68,24 @@
       </span>
     </div>
     <div class="container_image">
-      <img class="image_container" src="./images/orchart.png" />
+      <img
+        class="image_container"
+        src="./images/supStage.png"
+        id="MainStages"
+      />
     </div>
     <div class="container_image">
-      <img class="image_container" src="./images/Step1_2.png" />
+      <img class="image_container" src="./images/Step1_2.png" id="Stage1&2" />
     </div>
     <div class="container_image">
-      <img class="image_container" src="./images/Step3.png" />
+      <img class="image_container" src="./images/Step3.png" id="Stage3" />
     </div>
     <div class="container_image">
-      <img class="image_container" src="./images/Step4-5.png" />
+      <img class="image_container" src="./images/Step4-5.png" id="Stage4" />
     </div>
-    <section>
+    <section id="Course">
       <!--for demo wrap-->
-      <h1>Courses in the program</h1>
+      <h1 class="title_tabe">Courses in the program</h1>
       <div class="tbl-header">
         <table cellpadding="0" cellspacing="0">
           <thead>
