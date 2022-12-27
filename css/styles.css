@@ -317,10 +317,10 @@ section {
     border: 3px solid #f6c059;
     border-radius: 10px;
     width: 70%;
-    height: 25vh;
+    height: 30vh;
   }
   .title {
-    font-size: 90px;
+    font-size: 85px;
     -webkit-text-stroke: 3px transparent;
   }
   .sub_title {
@@ -349,15 +349,18 @@ section {
     font-size: 40px;
   }
   /* Containe_02 */
+  .container_02 {
+    height: 36vh;
+  }
   .title_container_02 {
-    font-size: 50px;
-    line-height: 30px;
+    font-size: 45px;
+    line-height: 25px;
   }
   .decription_container_02 {
     margin-top: 40px;
     font-weight: 500;
-    font-size: 30px;
-    line-height: 45px;
+    font-size: 25px;
+    line-height: 30px;
   }
 }
 
@@ -469,6 +472,7 @@ section {
     font-size: 20px;
   }
   /* Containe_02 */
+
   .title_container_02 {
     font-size: 22px;
     line-height: 30px;
