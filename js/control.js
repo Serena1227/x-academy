@@ -124,130 +124,135 @@ const dataCourse = [
     name: "Interview Skills for Interviewer",
     url: "https://fpt-software.udemy.com/learning-paths/3503128/",
   },
-  // Tới đây
   {
     id: "14",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "AgileScrum Framework",
+    url: "https://fpt-software.udemy.com/learning-paths/3744520/",
   },
   {
     id: "15",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "Microsoft Power Platform",
+    url: "https://fpt-software.udemy.com/learning-paths/3741858/",
   },
   {
     id: "16",
-    name: "Android App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "PMI-PMP: Project Management",
+    url: "https://fpt-software.udemy.com/learning-paths/3723050/",
   },
   {
     id: "17",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "Business Analytics",
+    url: "https://fpt-software.udemy.com/learning-paths/3677820/",
   },
+  //
   {
     id: "18",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "NodeJs Back-end Framework",
+    url: "https://fpt-software.udemy.com/learning-paths/3676522/",
   },
   {
     id: "19",
-    name: "Android App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "Front-end Web Framework",
+    url: "https://fpt-software.udemy.com/learning-paths/3676478/",
   },
   {
     id: "20",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "Python Platform & Data Science",
+    url: "https://fpt-software.udemy.com/learning-paths/3676448/",
   },
   {
     id: "21",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "C/C++ Platform",
+    url: "https://fpt-software.udemy.com/learning-paths/3660382/",
   },
   {
-    id: "21",
-    name: "Android App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    id: "22",
+    name: "Data Science: Data Engineering",
+    url: "https://fpt-software.udemy.com/learning-paths/3602942/",
   },
   {
     id: "23",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "ServiceNow Platform",
+    url: "https://fpt-software.udemy.com/learning-paths/3522438/",
   },
   {
     id: "24",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "Adobe Experience Manager",
+    url: "https://fpt-software.udemy.com/learning-paths/3512010/",
   },
   {
     id: "25",
-    name: "Android App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "Data Science",
+    url: "https://fpt-software.udemy.com/learning-paths/3509932/",
   },
   {
     id: "26",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "ISTQB - Software Testing Certification Board",
+    url: "https://fpt-software.udemy.com/learning-paths/3503232/",
   },
   {
     id: "27",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "Software Testing Engineering",
+    url: "https://fpt-software.udemy.com/learning-paths/3502808/",
   },
   {
     id: "28",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "MuleSoft Platform",
+    url: "https://fpt-software.udemy.com/learning-paths/3497230/",
   },
   {
     id: "29",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "Azure Cloud Architect",
+    url: "https://fpt-software.udemy.com/learning-paths/3495484/",
   },
   {
     id: "30",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "AZ 900: Azure Fundamentals",
+    url: "https://fpt-software.udemy.com/learning-paths/3495422/",
   },
   {
     id: "31",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "SAP 4/HANA Platform",
+    url: "https://fpt-software.udemy.com/learning-paths/3462976/",
   },
   {
     id: "32",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "Flutter Dart - Mobile App Development",
+    url: "https://fpt-software.udemy.com/learning-paths/3462496/",
   },
   {
     id: "33",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "AutoSAR Skills - Up/ReSkilling Program",
+    url: "https://fpt-software.udemy.com/learning-paths/3461816/",
   },
   {
     id: "34",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "OS/RTOS Skills - Up/ReSkilling Program",
+    url: "https://fpt-software.udemy.com/learning-paths/3461790/",
   },
   {
     id: "35",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "General Embedded Systems",
+    url: "https://fpt-software.udemy.com/learning-paths/3461754/",
   },
   {
     id: "36",
-    name: "iOS App Development",
-    url: "https://fpt-software.udemy.com/learning-paths/3503128/",
+    name: "Salesforce Platform",
+    url: "https://fpt-software.udemy.com/learning-paths/4293118/",
   },
 ];
+//
+function tdclick(event, url) {
+  window.open(url, "_blank");
+  event.stopPropagation();
+}
 document.getElementById("table_render").innerHTML = dataCourse
   .map(
     (data) =>
       `<tr>
       <td>${data.id}</td>
       <td>${data.name}</td>
-      <td>${data.url}</td>
+      <td onclick="tdclick(event,'${data.url}');" class="url">${data.url}</td>
     </tr>`
   )
   .join("");
